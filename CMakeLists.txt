@@ -1,5 +1,10 @@
 cmake_minimum_required(VERSION 3.19)
-project(moonshine_transcribe_wav LANGUAGES CXX)
+
+project(
+    moonshine_cpp
+    LANGUAGES CXX
+    VERSION 0.1.0
+)
 
 # Set C++ standard
 set(CMAKE_CXX_STANDARD 17)

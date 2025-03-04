@@ -10,7 +10,7 @@ add_library(moonshine_cpp STATIC
 add_library(moonshine::moonshine_cpp ALIAS moonshine_cpp)
 
 target_include_directories(moonshine_cpp PUBLIC
-    ${CMAKE_CURRENT_SOURCE_DIR}/include
+    ${MOONSHINE_INCLUDE_DIR}
     ${ONNXRUNTIME_INCLUDE_DIRS}
     ${tokenizers-cpp_SOURCE_DIR}/include
 )

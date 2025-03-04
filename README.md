@@ -27,4 +27,10 @@ target_link_libraries(your_target PRIVATE
 
 ## Dependencies
 
-This library depends on the [onnx runtime](https://github.com/microsoft/onnxruntime).  The build process attempts to fetch a pre-built binary of v1.20 from the onxx-runtime repo.
+- [onnx runtime](https://github.com/microsoft/onnxruntime).  The build process attempts to fetch a pre-built binary of v1.20 from the onxx-runtime repo.
+- [tokenizers-cpp](https://github.com/mlc-ai/tokenizers-cpp).  Used in the transcriber to convert token vector decoder output into string.
+- [AudioFile](https://github.com/adamstark/AudioFile).  Used by example for reading wav files.
+
+## External project example
+
+The example within this project is also outlined within the [moonshine_cpp_examples](https://github.com/milspect18/moonshine_cpp_examples) repository to illustrate how to integrate this repo into an external project.

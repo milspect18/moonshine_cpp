@@ -13,7 +13,7 @@ You can integrate this library into your CMake project using FetchContent:
 include(FetchContent)
 FetchContent_Declare(
     moonshine_cpp
-    GIT_REPOSITORY https://github.com/yourusername/moonshine_cpp.git
+    GIT_REPOSITORY https://github.com/milspect18/moonshine_cpp.git
     GIT_TAG main
 )
 

@@ -1,5 +1,5 @@
 # moonshine_cpp
-C++ inference library for Moonshine STT models
+C++ inference library for [Moonshine](https://github.com/usefulsensors/moonshine) STT models by [UsefulSensors](https://github.com/usefulsensors).
 
 ## Integration
 
